@@ -24,7 +24,7 @@ const BEATS: Beat[] = [
     accent: '#5EE6D0',
     medium: 'Email · The Prince',
     message:
-      'Your email address was identified during our beneficiary verification process. You are entitled to a payment of £4,200,000. Please confirm that this address belongs to you so I can explain the next steps.',
+        'Your email address was identified during our beneficiary verification process. You are entitled to a payment of £4,200,000. Please confirm that this address belongs to you so I can explain the next steps.',
     choices: [
       {
         label: "Yes, that's my email. Tell me more.",
@@ -49,7 +49,7 @@ const BEATS: Beat[] = [
     accent: '#FFC15E',
     medium: 'Scene · The Secret',
     message:
-      '"I kissed someone. At the work conference last month. It happened once. I ended it immediately." Their hands are flat on the counter. "I can\'t lose Alex over this. Please don\'t say anything."',
+        '"I kissed someone. At the work conference last month. It happened once. I ended it immediately." Their hands are flat on the counter. "I can\'t lose Alex over this. Please don\'t say anything."',
     choices: [
       {
         label: "I won't say anything — but you need to tell Alex yourself, and soon.",
@@ -68,6 +68,31 @@ const BEATS: Beat[] = [
       },
     ],
   },
+  {
+    id: 'career',
+    district: 'Career District',
+    accent: '#B4A0FF',
+    medium: 'Email · The Instruction',
+    message:
+        '"I need you to update the April delivery log — move the Northstar shipment to show confirmed receipt on the 14th. It\'s a formality, the client\'s already happy. Just needs to reflect that in the system."',
+    choices: [
+      {
+        label: "Sure, I'll update it now.",
+        stat: 'Street Smarts −15',
+        reason: 'You complied without establishing what you were actually agreeing to. Ray noted that.',
+      },
+      {
+        label: "Can you walk me through why the record needs to change?",
+        stat: 'Savvy +15 · Street Smarts +10',
+        reason: 'You made the ask legible before you answered it. That buys you both information and cover.',
+      },
+      {
+        label: "I'm not comfortable changing a confirmed delivery date.",
+        stat: 'Integrity +15 · Street Smarts −5',
+        reason: "You held the line. Ray has more leverage than you, and this conversation isn't over.",
+      },
+    ],
+  },
 ];
 
 export default function ScenarioDemo() {
@@ -81,48 +106,48 @@ export default function ScenarioDemo() {
   };
 
   return (
-    <div className="demo" style={{ ['--accent' as string]: beat.accent }}>
-      <div className="demo-tabs" role="tablist" aria-label="Try a scenario">
-        {BEATS.map((b, i) => (
-          <button
-            key={b.id}
-            role="tab"
-            type="button"
-            aria-selected={i === beatIndex}
-            className="demo-tab"
-            style={{ ['--accent' as string]: b.accent }}
-            onClick={() => switchBeat(i)}
-          >
-            {b.district.split(' ')[0]}
-          </button>
-        ))}
-      </div>
-
-      <p className="demo-meta">{beat.medium}</p>
-      <p className="demo-message">{beat.message}</p>
-
-      <p className="demo-prompt">How do you respond?</p>
-      {beat.choices.map((choice, i) => (
-        <button
-          key={choice.label}
-          type="button"
-          className="demo-choice"
-          aria-pressed={picked === i}
-          onClick={() => setPicked(i)}
-        >
-          {choice.label}
-        </button>
-      ))}
-
-      {picked !== null && (
-        <div className="demo-reason">
-          <p className="demo-reason-stat">{beat.choices[picked].stat}</p>
-          <p className="demo-reason-text">{beat.choices[picked].reason}</p>
+      <div className="demo" style={{ ['--accent' as string]: beat.accent }}>
+        <div className="demo-tabs" role="tablist" aria-label="Try a scenario">
+          {BEATS.map((b, i) => (
+              <button
+                  key={b.id}
+                  role="tab"
+                  type="button"
+                  aria-selected={i === beatIndex}
+                  className="demo-tab"
+                  style={{ ['--accent' as string]: b.accent }}
+                  onClick={() => switchBeat(i)}
+              >
+                {b.district.split(' ')[0]}
+              </button>
+          ))}
         </div>
-      )}
-      {picked === null && (
-        <p className="demo-footnote">Pick one. Every score shows its reason.</p>
-      )}
-    </div>
+
+        <p className="demo-meta">{beat.medium}</p>
+        <p className="demo-message">{beat.message}</p>
+
+        <p className="demo-prompt">How do you respond?</p>
+        {beat.choices.map((choice, i) => (
+            <button
+                key={choice.label}
+                type="button"
+                className="demo-choice"
+                aria-pressed={picked === i}
+                onClick={() => setPicked(i)}
+            >
+              {choice.label}
+            </button>
+        ))}
+
+        {picked !== null && (
+            <div className="demo-reason">
+              <p className="demo-reason-stat">{beat.choices[picked].stat}</p>
+              <p className="demo-reason-text">{beat.choices[picked].reason}</p>
+            </div>
+        )}
+        {picked === null && (
+            <p className="demo-footnote">Pick one. Every score shows its reason.</p>
+        )}
+      </div>
   );
 }
