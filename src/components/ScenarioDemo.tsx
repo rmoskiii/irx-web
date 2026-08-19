@@ -146,7 +146,16 @@ export default function ScenarioDemo() {
 
         {picked !== null && (
             <div className="demo-reason">
-              <p className="demo-reason-stat">{beat.choices[picked].stat}</p>
+              <p className="demo-reason-stat">
+                {beat.choices[picked].stat.split(' · ').map((segment, i, arr) => (
+                    <span key={segment}>
+                <span style={segment.includes('−') ? { color: '#f87171' } : undefined}>
+                  {segment}
+                </span>
+                      {i < arr.length - 1 && <span style={{ color: 'var(--dim)' }}> · </span>}
+              </span>
+                ))}
+              </p>
               <p className="demo-reason-text">{beat.choices[picked].reason}</p>
             </div>
         )}
