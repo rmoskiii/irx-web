@@ -7,7 +7,7 @@ export default function Hero() {
         <div>
           <p className="eyebrow">Judgment, played out</p>
           <h1>
-            Practise judgment<br />
+            Practice judgment<br />
             <span className="accent">before</span> it matters.
           </h1>
           <p className="hero-sub">

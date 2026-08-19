@@ -24,22 +24,27 @@ const BEATS: Beat[] = [
     accent: '#5EE6D0',
     medium: 'Email · The Prince',
     message:
-        'Your email address was identified during our beneficiary verification process. You are entitled to a payment of £4,200,000. Please confirm that this address belongs to you so I can explain the next steps.',
+        'Halloway & Finch Probate Research. Our records indicate you may be an entitled beneficiary of the late Margaret Ellen Prince (est. £312,000) through your maternal line. We work on contingency — you owe nothing unless you receive. Please do not contact the Probate Registry directly until verification is complete. Confirm this email is yours to proceed.',
     choices: [
       {
-        label: "Yes, that's my email. Tell me more.",
-        stat: 'Street Smarts −10',
-        reason: 'Confirming without question let the sender keep steering the conversation.',
+        label: "Sure — this is my email. Send the questionnaire.",
+        stat: 'Savvy −10 · Street Smarts −10',
+        reason: 'You confirmed your identity and invited more contact before verifying a single detail.',
       },
       {
-        label: 'How did you get my details?',
-        stat: 'Savvy +10',
-        reason: 'You questioned how they got your details — a fair first flag.',
+        label: "I'll look up Halloway & Finch independently before responding.",
+        stat: 'Savvy +20 · Street Smarts +15',
+        reason: "You ignored the instruction telling you not to verify independently. That instruction was the tell.",
       },
       {
-        label: "I'll verify this independently before anything else.",
-        stat: 'Savvy +15 · Street Smarts +15',
-        reason: 'You set your own terms before engaging any further.',
+        label: "Why shouldn't I contact the Probate Registry directly?",
+        stat: 'Savvy +20 · Street Smarts +10',
+        reason: "You named the most suspicious line in the email back at the sender. A legitimate firm doesn't need you to avoid their regulator.",
+      },
+      {
+        label: "I'm not responding to this.",
+        stat: 'Street Smarts +10',
+        reason: 'You protected yourself — but probate researchers are real, and this could have been one. Not a clean win.',
       },
     ],
   },
