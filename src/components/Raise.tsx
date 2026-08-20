@@ -12,7 +12,7 @@ export default function Raise() {
         <p className="eyebrow">The raise</p>
         <div className="raise-grid">
           <p className="raise-statement">
-            Raising pre-seed to prove that practising judgment can become a{' '}
+            Raising £300k pre-seed to prove that practising judgment can become a{' '}
             <em>daily consumer habit</em>.
           </p>
           <dl className="raise-facts">
