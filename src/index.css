@@ -49,8 +49,8 @@ body::before {
   pointer-events: none;
   z-index: 0;
   background:
-    radial-gradient(60% 50% at 78% 4%, rgba(94, 230, 208, 0.09), transparent 70%),
-    radial-gradient(55% 45% at 8% 30%, rgba(255, 193, 94, 0.07), transparent 70%);
+          radial-gradient(60% 50% at 78% 4%, rgba(94, 230, 208, 0.09), transparent 70%),
+          radial-gradient(55% 45% at 8% 30%, rgba(255, 193, 94, 0.07), transparent 70%);
 }
 
 #root { position: relative; z-index: 1; }
@@ -514,3 +514,36 @@ a { color: inherit; }
     transition-duration: 0.001ms !important;
   }
 }
+
+/* ---------------- demo CTAs ---------------- */
+.hero-demo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 28px;
+  padding: 13px 22px;
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.hero-demo-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px -12px rgba(94, 230, 208, 0.45);
+}
+
+.demo-play-link {
+  display: block;
+  margin-top: 16px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-align: right;
+  color: var(--dim);
+  text-decoration: none;
+  transition: color 0.18s;
+}
+.demo-play-link:hover { color: var(--accent); }

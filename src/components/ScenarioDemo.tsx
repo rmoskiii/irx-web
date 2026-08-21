@@ -162,6 +162,9 @@ export default function ScenarioDemo() {
         {picked === null && (
             <p className="demo-footnote">Pick one. Every score shows its reason.</p>
         )}
+        <a className="demo-play-link" href="/demo" target="_blank" rel="noopener noreferrer">
+          Play the full scenario →
+        </a>
       </div>
   );
 }
