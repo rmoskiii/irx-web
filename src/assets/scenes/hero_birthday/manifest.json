@@ -1,0 +1,55 @@
+{
+ "source": "hero_birthday.web.svg",
+ "viewBox": "0 0 1600 900",
+ "bands": [
+  {
+   "id": "background",
+   "file": "background.svg",
+   "paths": 5,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "architecture",
+   "file": "architecture.svg",
+   "paths": 73,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "environmental_detail",
+   "file": "environmental_detail.svg",
+   "paths": 35,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "furniture",
+   "file": "furniture.svg",
+   "paths": 183,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "near",
+   "file": "near.svg",
+   "paths": 94,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "atmosphere",
+   "file": "atmosphere.svg",
+   "paths": 0,
+   "rects": 3,
+   "parallax": false
+  },
+  {
+   "id": "anchor-interior-hinge",
+   "file": "anchor-interior-hinge.svg",
+   "paths": 1,
+   "rects": 0,
+   "parallax": true
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "source": "scene.neighbourhood_night.svg",
+ "viewBox": "0 0 2200 900",
+ "bands": [
+  {
+   "id": "background",
+   "file": "background.svg",
+   "paths": 6,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "architecture",
+   "file": "architecture.svg",
+   "paths": 118,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "architecture_far",
+   "file": "architecture_far.svg",
+   "paths": 39,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "n-window-lit",
+   "file": "n-window-lit.svg",
+   "paths": 11,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "environmental_detail",
+   "file": "environmental_detail.svg",
+   "paths": 33,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "furniture",
+   "file": "furniture.svg",
+   "paths": 44,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "overhead",
+   "file": "overhead.svg",
+   "paths": 1,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "near",
+   "file": "near.svg",
+   "paths": 18,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "atmosphere",
+   "file": "atmosphere.svg",
+   "paths": 0,
+   "rects": 3,
+   "parallax": false
+  }
+ ]
+}

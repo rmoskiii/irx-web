@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 900"
+     data-band="architecture" data-parallax="true" data-asset="scene.neighbourhood_night" data-time="night" data-occlusion-line="600" data-camera-frame="300,0,1600,900" data-authoring-canvas="2200,900" data-vanishing-point="1240,470" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3ZWQwZjAyOC05OTJjLTQ4MDktYmJjNS0wOTViZjFmM2NkOTkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOo1KchAJWU9bf1ZavCo7X4AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowYzUyMDIwNS00ZWYyLTQwZjQtYWI5Mi04MTViNDViNzMyNDRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoWOaOpBNlA0qwJpniAsa5IAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggljd5Wb8a3IPokWvVBhYVmPZk+vtFvsw6Atr/a552B4ikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaF5Y83t6Dc26gQwYPCG+6QcAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYICtXuIBVHJYp/Wd1HQJlhiSuH27YgHtCc1eXNlOusEFeZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQFoZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjdlZDBmMDI4LTk5MmMtNDgwOS1iYmM1LTA5NWJmMWYzY2Q5OS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmVmN2I2NTZiLWU2YmYtNDcwMS05ZmZkLWEzMmFmM2UyMDM2YnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCWN3lZvxrcg+iRa9UGFhWY9mT6+0W+zDoC2v9rnnYHiKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggCO8sYPWQ/ik/qQKOWa5H0CroBxlvMWq7rZyDU6wxFy+iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggzBM+N82hrvsuiZ30aKHTXwUUV3bASbAxO7C5CdJrt290Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQP8w3cjQH9gkrkRL0rsi5wEmf08ZmJo/dF0/OYYahWHJIVFvFJD1OijwemUb0f7uHmOy4rCVHNa0L53grDbRLN0=</c2pa:manifest></metadata>
+<style>
+        /* @tokens-begin */
+        :root {
+        /* line — shared craft language, unchanged */
+        --irx-line:          #241D19;
+        --irx-line-soft:     #3B302A;
+        --irx-shadow:        #2A231E;
+
+        /* sky — reused verbatim from scene.kitchen's window. The exterior and the
+        kitchen look at the same sky from opposite sides. */
+        --irx-sky-high:      #334051;
+        --irx-sky-mid:       #4D4656;
+        --irx-sky-low:       #785A4F;
+        --irx-outside-dark:  #2A333E;
+        --irx-curtain:       #424E56;
+
+        /* accent — neighbourhood district, warm light only */
+        --irx-accent:        #FFC15E;
+        --irx-accent-dim:    #C89A4E;
+        --irx-lamp-warm:     #F2C77E;
+        --irx-cool-spill:    #7E93A8;
+
+        /* new — neighbourhood exterior. Values held in the kitchen's large-area
+        luminance band (L 83-116) so the L=30 linework still reads. Night comes
+        from hue, silhouette and the vignette, not from dark fills. */
+        --irx-neighbourhood-brick:        #7A6459;
+        --irx-neighbourhood-brick-dark:   #64514A;
+        --irx-neighbourhood-roof:         #55606B;
+        --irx-neighbourhood-pavement:     #5A616A;
+        --irx-neighbourhood-kerb:         #3C424A;
+        --irx-neighbourhood-foliage:      #46584B;
+        --irx-neighbourhood-foliage-dark: #35463A;
+        --irx-neighbourhood-car:          #5A5F66;
+
+        /* stroke weights */
+        --irx-stroke-xheavy: 6.6;
+        --irx-stroke-heavy:  5;
+        --irx-stroke:        3.4;
+        --irx-stroke-fine:   2.1;
+        --irx-stroke-hair:   1.4;
+        }
+        /* @tokens-end */
+        .ln    { stroke: var(--irx-line); fill: none; stroke-linecap: round; stroke-linejoin: round; }
+        .soft  { stroke: var(--irx-line-soft); }
+        .sky   { fill: var(--irx-sky-high); }
+        .skym  { fill: var(--irx-sky-mid); }
+        .skyl  { fill: var(--irx-sky-low); }
+        .dark  { fill: var(--irx-outside-dark); }
+        .moon  { fill: var(--irx-lamp-warm); }
+        .brick { fill: var(--irx-neighbourhood-brick); }
+        .brickd{ fill: var(--irx-neighbourhood-brick-dark); }
+        .roof  { fill: var(--irx-neighbourhood-roof); }
+        .pave  { fill: var(--irx-neighbourhood-pavement); }
+        .kerb  { fill: var(--irx-neighbourhood-kerb); }
+        .fol   { fill: var(--irx-neighbourhood-foliage); }
+        .fold  { fill: var(--irx-neighbourhood-foliage-dark); }
+        .acc   { fill: var(--irx-accent); }
+        .accd  { fill: var(--irx-accent-dim); }
+        .lampwarm { fill: var(--irx-lamp-warm); }
+        .curt  { fill: var(--irx-curtain); }
+        .carbody { fill: var(--irx-neighbourhood-car); }
+        .shad  { fill: var(--irx-shadow); }
+    </style>
+<defs>
+        <filter id="n-grain" x="0" y="0" width="100%" height="100%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch"/>
+            <feColorMatrix type="saturate" values="0"/>
+        </filter>
+        <radialGradient id="n-vignette" cx="56%" cy="50%" r="70%">
+            <stop offset="0.48" stop-color="#000000" stop-opacity="0"/>
+            <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+        </radialGradient>
+        <radialGradient id="n-nightspill" cx="56%" cy="52%" r="44%">
+            <stop offset="0" stop-color="var(--irx-cool-spill)" stop-opacity="0.10"/>
+            <stop offset="1" stop-color="var(--irx-cool-spill)" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+<g id="architecture">
+<path class="brick" d="M100.0 146.0 L316.6 207.6 L316.6 768.1 L100.0 838.0 z"/>
+<path class="roof" d="M100.0 120.0 L316.6 184.3 L316.6 207.6 L100.0 146.0 z"/>
+<path class="ln" stroke-width="5.0" d="M100.0 120.0 L316.6 184.3"/>
+<path class="ln" stroke-width="2.73" d="M316.6 207.6 L316.6 768.1" opacity="0.85"/>
+<path class="ln" stroke-width="3.4" d="M100.0 816.0 L316.6 748.6" opacity="0.85"/>
+<path class="ln" stroke-width="4.6" d="M100.0 838.0 L316.6 768.1"/>
+<path class="dark" d="M156.3 319.9 L204.0 326.5 L204.0 502.6 L156.3 504.1 z"/>
+<path class="ln" stroke-width="2.35" d="M156.3 319.9 L204.0 326.5 L204.0 502.6 L156.3 504.1 z"/>
+<path class="dark" d="M238.6 331.3 L286.3 337.9 L286.3 500.0 L238.6 501.5 z"/>
+<path class="ln" stroke-width="2.28" d="M238.6 331.3 L286.3 337.9 L286.3 500.0 L238.6 501.5 z"/>
+<path class="brickd" d="M316.6 189.6 L510.4 251.1 L510.4 705.5 L316.6 768.1 z"/>
+<path class="roof" d="M316.6 166.3 L510.4 230.3 L510.4 251.1 L316.6 189.6 z"/>
+<path class="ln" stroke-width="4.62" d="M316.6 166.3 L510.4 230.3"/>
+<path class="ln" stroke-width="2.5" d="M510.4 251.1 L510.4 705.5" opacity="0.85"/>
+<path class="ln" stroke-width="3.13" d="M316.6 748.6 L510.4 688.3" opacity="0.85"/>
+<path class="ln" stroke-width="4.22" d="M316.6 768.1 L510.4 705.5"/>
+<path class="accd" d="M367.0 349.1 L409.6 355.0 L409.6 496.1 L367.0 497.4 z"/>
+<path class="ln" stroke-width="2.17" d="M367.0 349.1 L409.6 355.0 L409.6 496.1 L367.0 497.4 z"/>
+<path class="dark" d="M440.6 359.3 L483.3 365.2 L483.3 493.8 L440.6 495.1 z"/>
+<path class="ln" stroke-width="2.1" d="M440.6 359.3 L483.3 365.2 L483.3 493.8 L440.6 495.1 z"/>
+<path class="brick" d="M510.4 272.6 L675.7 314.6 L675.7 652.2 L510.4 705.5 z"/>
+<path class="roof" d="M510.4 251.8 L675.7 295.8 L675.7 314.6 L510.4 272.6 z"/>
+<path class="ln" stroke-width="4.28" d="M510.4 251.8 L675.7 295.8"/>
+<path class="ln" stroke-width="2.29" d="M675.7 314.6 L675.7 652.2" opacity="0.85"/>
+<path class="ln" stroke-width="2.9" d="M510.4 688.3 L675.7 636.8" opacity="0.85"/>
+<path class="ln" stroke-width="3.88" d="M510.4 705.5 L675.7 652.2"/>
+<path class="dark" d="M553.4 374.9 L589.7 379.9 L589.7 490.4 L553.4 491.6 z"/>
+<path class="ln" stroke-width="2.0" d="M553.4 374.9 L589.7 379.9 L589.7 490.4 L553.4 491.6 z"/>
+<path class="dark" d="M616.2 383.6 L652.6 388.6 L652.6 488.5 L616.2 489.6 z"/>
+<path class="ln" stroke-width="1.95" d="M616.2 383.6 L652.6 388.6 L652.6 488.5 L616.2 489.6 z"/>
+<path class="brickd" d="M675.7 309.6 L784.0 340.4 L784.0 617.2 L675.7 652.2 z"/>
+<path class="roof" d="M675.7 290.8 L784.0 323.0 L784.0 340.4 L675.7 309.6 z"/>
+<path class="ln" stroke-width="3.99" d="M675.7 290.8 L784.0 323.0"/>
+<path class="ln" stroke-width="2.16" d="M784.0 340.4 L784.0 617.2" opacity="0.85"/>
+<path class="ln" stroke-width="2.69" d="M675.7 636.8 L784.0 603.1" opacity="0.85"/>
+<path class="ln" stroke-width="3.59" d="M675.7 652.2 L784.0 617.2"/>
+<path class="dark" d="M703.9 395.7 L727.7 399.0 L727.7 486.1 L703.9 486.9 z"/>
+<path class="ln" stroke-width="1.87" d="M703.9 395.7 L727.7 399.0 L727.7 486.1 L703.9 486.9 z"/>
+<path class="dark" d="M745.0 401.4 L768.8 404.7 L768.8 484.8 L745.0 485.6 z"/>
+<path class="ln" stroke-width="1.83" d="M745.0 401.4 L768.8 404.7 L768.8 484.8 L745.0 485.6 z"/>
+<path class="skyl" d="M784.0 617.2 L898.0 580.4 L898.0 368.6 L784.0 326.4 z" opacity="0.3"/>
+<path class="ln" stroke-width="3.0" d="M784.0 326.4 L784.0 617.2"/>
+<path class="ln soft" stroke-width="2.6" d="M898.0 368.6 L898.0 580.4" opacity="0.8"/>
+<path class="brickd" d="M898.0 378.8 L1000.6 403.2 L1000.6 547.3 L898.0 580.4 z"/>
+<path class="ln" stroke-width="3.6" d="M898.0 362.8 L1000.6 388.5"/>
+<path class="ln" stroke-width="1.89" d="M1000.6 403.2 L1000.6 547.3" opacity="0.85"/>
+<path class="ln" stroke-width="2.42" d="M898.0 567.6 L1000.6 535.7" opacity="0.85"/>
+<path class="ln" stroke-width="3.2" d="M898.0 580.4 L1000.6 547.3"/>
+<path class="dark" d="M924.7 426.3 L947.2 429.4 L947.2 479.2 L924.7 479.9 z"/>
+<path class="ln" stroke-width="1.68" d="M924.7 426.3 L947.2 429.4 L947.2 479.2 L924.7 479.9 z"/>
+<path class="brick" d="M1000.6 394.0 L1099.8 429.2 L1099.8 515.3 L1000.6 547.3 z"/>
+<path class="ln" stroke-width="3.42" d="M1000.6 379.3 L1099.8 415.7"/>
+<path class="ln" stroke-width="1.77" d="M1099.8 429.2 L1099.8 515.3" opacity="0.85"/>
+<path class="ln" stroke-width="2.29" d="M1000.6 535.7 L1099.8 504.8" opacity="0.85"/>
+<path class="ln" stroke-width="3.02" d="M1000.6 547.3 L1099.8 515.3"/>
+<path class="dark" d="M1026.4 440.4 L1048.2 443.4 L1048.2 476.0 L1026.4 476.7 z"/>
+<path class="ln" stroke-width="1.59" d="M1026.4 440.4 L1048.2 443.4 L1048.2 476.0 L1026.4 476.7 z"/>
+<path class="brickd" d="M2100.0 164.0 L1932.3 223.7 L1932.3 766.2 L2100.0 838.0 z"/>
+<path class="roof" d="M2100.0 138.0 L1932.3 200.5 L1932.3 223.7 L2100.0 164.0 z"/>
+<path class="ln" stroke-width="5.0" d="M2100.0 138.0 L1932.3 200.5"/>
+<path class="ln" stroke-width="2.73" d="M1932.3 223.7 L1932.3 766.2" opacity="0.85"/>
+<path class="ln" stroke-width="3.4" d="M2100.0 816.0 L1932.3 746.8" opacity="0.85"/>
+<path class="ln" stroke-width="4.6" d="M2100.0 838.0 L1932.3 766.2"/>
+<path class="accd" d="M2053.0 346.4 L2016.2 352.0 L2016.2 522.3 L2053.0 524.8 z"/>
+<path class="ln" stroke-width="2.25" d="M2053.0 346.4 L2016.2 352.0 L2016.2 522.3 L2053.0 524.8 z"/>
+<path class="dark" d="M1989.3 356.1 L1952.4 361.7 L1952.4 518.0 L1989.3 520.5 z"/>
+<path class="ln" stroke-width="2.17" d="M1989.3 356.1 L1952.4 361.7 L1952.4 518.0 L1989.3 520.5 z"/>
+<path class="brick" d="M1932.3 237.7 L1781.8 286.0 L1781.8 701.8 L1932.3 766.2 z"/>
+<path class="roof" d="M1932.3 214.5 L1781.8 265.3 L1781.8 286.0 L1932.3 237.7 z"/>
+<path class="ln" stroke-width="4.61" d="M1932.3 214.5 L1781.8 265.3"/>
+<path class="ln" stroke-width="2.48" d="M1781.8 286.0 L1781.8 701.8" opacity="0.85"/>
+<path class="ln" stroke-width="3.13" d="M1932.3 746.8 L1781.8 684.7" opacity="0.85"/>
+<path class="ln" stroke-width="4.21" d="M1932.3 766.2 L1781.8 701.8"/>
+<path class="dark" d="M1890.2 371.1 L1857.0 376.2 L1857.0 511.6 L1890.2 513.8 z"/>
+<path class="ln" stroke-width="2.06" d="M1890.2 371.1 L1857.0 376.2 L1857.0 511.6 L1890.2 513.8 z"/>
+<path class="dark" d="M1833.0 379.8 L1799.9 384.9 L1799.9 507.7 L1833.0 510.0 z"/>
+<path class="ln" stroke-width="1.99" d="M1833.0 379.8 L1799.9 384.9 L1799.9 507.7 L1833.0 510.0 z"/>
+<path class="brickd" d="M1781.8 261.2 L1657.1 313.8 L1657.1 648.5 L1781.8 701.8 z"/>
+<path class="roof" d="M1781.8 240.5 L1657.1 295.2 L1657.1 313.8 L1781.8 261.2 z"/>
+<path class="ln" stroke-width="4.26" d="M1781.8 240.5 L1657.1 295.2"/>
+<path class="ln" stroke-width="2.28" d="M1657.1 313.8 L1657.1 648.5" opacity="0.85"/>
+<path class="ln" stroke-width="2.88" d="M1781.8 684.7 L1657.1 633.3" opacity="0.85"/>
+<path class="ln" stroke-width="3.86" d="M1781.8 701.8 L1657.1 648.5"/>
+<path class="dark" d="M1746.9 392.9 L1719.5 397.1 L1719.5 502.3 L1746.9 504.2 z"/>
+<path class="ln" stroke-width="1.89" d="M1746.9 392.9 L1719.5 397.1 L1719.5 502.3 L1746.9 504.2 z"/>
+<path class="accd" d="M1699.5 400.1 L1672.1 404.3 L1672.1 499.1 L1699.5 501.0 z"/>
+<path class="ln" stroke-width="1.83" d="M1699.5 400.1 L1672.1 404.3 L1672.1 499.1 L1699.5 501.0 z"/>
+<path class="brick" d="M1657.1 327.6 L1562.5 357.5 L1562.5 608.0 L1657.1 648.5 z"/>
+<path class="roof" d="M1657.1 309.0 L1562.5 340.4 L1562.5 357.5 L1657.1 327.6 z"/>
+<path class="ln" stroke-width="3.97" d="M1657.1 309.0 L1562.5 340.4"/>
+<path class="ln" stroke-width="2.12" d="M1562.5 357.5 L1562.5 608.0" opacity="0.85"/>
+<path class="ln" stroke-width="2.68" d="M1657.1 633.3 L1562.5 594.2" opacity="0.85"/>
+<path class="ln" stroke-width="3.57" d="M1657.1 648.5 L1562.5 608.0"/>
+<path class="dark" d="M1630.6 410.6 L1609.8 413.8 L1609.8 494.9 L1630.6 496.3 z"/>
+<path class="ln" stroke-width="1.75" d="M1630.6 410.6 L1609.8 413.8 L1609.8 494.9 L1630.6 496.3 z"/>
+<path class="dark" d="M1594.7 416.1 L1573.9 419.2 L1573.9 492.5 L1594.7 493.9 z"/>
+<path class="ln" stroke-width="1.71" d="M1594.7 416.1 L1573.9 419.2 L1573.9 492.5 L1594.7 493.9 z"/>
+<path class="brickd" d="M1562.5 345.2 L1480.8 381.5 L1480.8 573.0 L1562.5 608.0 z"/>
+<path class="ln" stroke-width="3.75" d="M1562.5 328.2 L1480.8 365.8"/>
+<path class="ln" stroke-width="1.99" d="M1480.8 381.5 L1480.8 573.0" opacity="0.85"/>
+<path class="ln" stroke-width="2.52" d="M1562.5 594.2 L1480.8 560.5" opacity="0.85"/>
+<path class="ln" stroke-width="3.35" d="M1562.5 608.0 L1480.8 573.0"/>
+<path class="dark" d="M1539.6 424.4 L1521.7 427.2 L1521.7 489.0 L1539.6 490.2 z"/>
+<path class="ln" stroke-width="1.65" d="M1539.6 424.4 L1521.7 427.2 L1521.7 489.0 L1539.6 490.2 z"/>
+<path class="brick" d="M1480.8 392.3 L1412.0 410.4 L1412.0 543.6 L1480.8 573.0 z"/>
+<path class="ln" stroke-width="3.56" d="M1480.8 376.6 L1412.0 395.8"/>
+<path class="ln" stroke-width="1.88" d="M1412.0 410.4 L1412.0 543.6" opacity="0.85"/>
+<path class="ln" stroke-width="2.39" d="M1480.8 560.5 L1412.0 532.2" opacity="0.85"/>
+<path class="ln" stroke-width="3.16" d="M1480.8 573.0 L1412.0 543.6"/>
+<path class="dark" d="M1461.5 436.3 L1446.4 438.6 L1446.4 483.9 L1461.5 484.9 z"/>
+<path class="ln" stroke-width="1.56" d="M1461.5 436.3 L1446.4 438.6 L1446.4 483.9 L1461.5 484.9 z"/>
+<path class="brickd" d="M1412.0 402.8 L1345.8 431.6 L1345.8 515.3 L1412.0 543.6 z"/>
+<path class="ln" stroke-width="3.4" d="M1412.0 388.2 L1345.8 418.2"/>
+<path class="ln" stroke-width="1.77" d="M1345.8 431.6 L1345.8 515.3" opacity="0.85"/>
+<path class="ln" stroke-width="2.28" d="M1412.0 532.2 L1345.8 504.8" opacity="0.85"/>
+<path class="ln" stroke-width="3.0" d="M1412.0 543.6 L1345.8 515.3"/>
+<path class="dark" d="M1393.5 446.7 L1378.9 448.9 L1378.9 479.4 L1393.5 480.3 z"/>
+<path class="ln" stroke-width="1.48" d="M1393.5 446.7 L1378.9 448.9 L1378.9 479.4 L1393.5 480.3 z"/>
+</g>
+</svg>
