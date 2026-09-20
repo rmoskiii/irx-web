@@ -190,6 +190,7 @@ export const DEPTH: Record<string, number> = {
      */
     architecture_far: 1.0,
     environmental_detail: 0.35,
+    overhead: 0.95,
     furniture: 0.75,
     near: 0.9,
     atmosphere: 0,
