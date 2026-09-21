@@ -1,0 +1,48 @@
+{
+  "source": "s1d4_kitchen.web.svg",
+  "viewBox": "0 0 1600 900",
+  "bands": [
+    {
+      "id": "background",
+      "file": "background.svg",
+      "paths": 4,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "architecture",
+      "file": "architecture.svg",
+      "paths": 19,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "environmental_detail",
+      "file": "environmental_detail.svg",
+      "paths": 22,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "furniture",
+      "file": "furniture.svg",
+      "paths": 107,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "near",
+      "file": "near.svg",
+      "paths": 2,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "atmosphere",
+      "file": "atmosphere.svg",
+      "paths": 0,
+      "rects": 3,
+      "parallax": false
+    }
+  ]
+}

@@ -1,28 +1,118 @@
 #!/usr/bin/env python3
-"""Inline split bands into a TS module for the proof harness.
-Destination: irx-web/tools/build_bands.py (dev-only)"""
-import json, pathlib, re, sys
-d = pathlib.Path(sys.argv[1]); out = pathlib.Path(sys.argv[2])
-man = json.loads((d / "manifest.json").read_text())
-DEPTH = {"background":0.05,"architecture":0.15,"architecture_far":1.0,
-         "n-window-lit":1.0,"environmental_detail":0.35,"furniture":0.75,
-         "near":0.9,"overhead":0.95,"atmosphere":0.0}
-style = defs = ""
-parts = []
-for b in man["bands"]:
-    s = (d / b["file"]).read_text()
-    if not style:
-        m = re.search(r"<style>(.*?)</style>", s, re.S);  style = m.group(1) if m else ""
-        m = re.search(r"<defs>(.*?)</defs>", s, re.S);    defs  = m.group(1) if m else ""
-    body = re.search(r"<g id=\"[^\"]+\"[^>]*>(.*)</g>", s, re.S).group(1)
-    parts.append((b["id"], DEPTH[b["id"]], b["parallax"], body))
-ts = ["// GENERATED from split_bands.py output. Do not edit.",
-      f"export const VIEW_BOX = {json.dumps(man['viewBox'])};",
-      f"export const STYLE = {json.dumps(style)};",
-      f"export const DEFS = {json.dumps(defs)};",
-      "export const BANDS: {id:string;depth:number;parallax:boolean;svg:string}[] = ["]
-for i,(bid,depth,par,body) in enumerate(parts):
-    ts.append(f"  {{ id: {json.dumps(bid)}, depth: {depth}, parallax: {str(par).lower()}, svg: {json.dumps(body)} }},")
-ts.append("];")
-out.write_text("\n".join(ts))
-print(f"{out}: {len(parts)} bands, {out.stat().st_size//1024} KB")
+"""build_bands.py — inline split bands into a TS module for the web stage.
+
+Destination: irx-web/tools/build_bands.py (dev-only)
+
+Uses a real XML parser, not regex. An earlier regex version extracted <defs>
+by pattern and silently captured a stray tag out of a CSS comment, which turns
+into an unclosed element once it goes through innerHTML: the browser ejects
+<defs> and the world group out of the <svg>, leaves <style> as its only child,
+and renders nothing. The paths were all present, in the right namespace, with
+a correct 1609x911 world bbox — and the stage was black. Parse the document.
+
+Usage: build_bands.py <banddir> <out.ts> [interior]
+"""
+from __future__ import annotations
+import json
+import pathlib
+import re
+import sys
+import xml.etree.ElementTree as ET
+
+NS = "{http://www.w3.org/2000/svg}"
+ET.register_namespace("", "http://www.w3.org/2000/svg")
+
+# Depth is a property of the scene, not of the band name. A one-point
+# perspective exterior and a frontal interior put identically named bands at
+# different distances, so each scene brings its own table.
+DEPTHS = {
+    "exterior": {"background": 0.05, "architecture": 0.15, "architecture_far": 1.0,
+                 "n-window-lit": 1.0, "environmental_detail": 0.35, "furniture": 0.75,
+                 "near": 0.9, "overhead": 0.95, "atmosphere": 0.0},
+    "interior": {"background": 0.1, "architecture": 0.3, "environmental_detail": 0.45,
+                 "furniture": 0.75, "near": 0.95, "atmosphere": 0.0,
+                 "anchor-interior-hinge": 1.0},
+}
+
+
+def ser(el) -> str:
+    out = ET.tostring(el, encoding="unicode")
+    return (out.replace(' xmlns="http://www.w3.org/2000/svg"', "")
+            .replace(f"{NS}", "")
+            .replace("<![CDATA[", "").replace("]]>", "").strip())
+
+
+def main() -> int:
+    d = pathlib.Path(sys.argv[1])
+    out = pathlib.Path(sys.argv[2])
+    kind = sys.argv[3] if len(sys.argv) > 3 else "exterior"
+    depth = DEPTHS[kind]
+
+    man = json.loads((d / "manifest.json").read_text())
+    style_txt, defs_parts, bands = "", [], []
+
+    for b in man["bands"]:
+        root = ET.fromstring((d / b["file"]).read_text())
+        if not style_txt:
+            for el in root.iter():
+                if el.tag == NS + "style" and el.text:
+                    style_txt += el.text.replace("<![CDATA[", "").replace("]]>", "") + "\n"
+            for defs in root.findall(NS + "defs"):
+                for child in defs:
+                    # style lives in <style>, never in <defs>
+                    if child.tag != NS + "style":
+                        defs_parts.append(ser(child))
+        g = next((x for x in root.findall(NS + "g") if x.get("id") == b["id"]), None)
+        if g is None:
+            raise SystemExit(f'band group "{b["id"]}" missing from {b["file"]}')
+        body = "".join(ser(c) for c in g)
+        # Anchors are destinations. split_bands.py promotes anything carrying
+        # data-camera-anchor to its own band precisely because a destination
+        # cannot lag, so depth 1.0 is not a per-scene choice and the tables
+        # should not have to enumerate them.
+        if b["id"].startswith("anchor-"):
+            dp = 1.0
+        elif b["id"] in depth:
+            dp = depth[b["id"]]
+        else:
+            raise SystemExit(f'no depth declared for band "{b["id"]}" in the {kind} table')
+        bands.append((b["id"], dp, b["parallax"], body))
+
+    # Strip CSS comments before inlining.
+    #
+    # Inside an <svg>, <style> is FOREIGN CONTENT, not rawtext. Any "<" in the
+    # stylesheet is parsed as a start tag — and the IRX token blocks document
+    # themselves in comments that mention <defs> and <style>. Those four
+    # characters became real elements and swallowed <defs> and the world group,
+    # leaving <style> as the svg's only child. Every path was present, in the
+    # SVG namespace, with a correct world bbox. The stage rendered black.
+    #
+    # The comments are documentation and live in the asset, which keeps them.
+    # This is a build artefact and does not need them.
+    style_txt = re.sub(r"/\*.*?\*/", "", style_txt, flags=re.S)
+    if "<" in style_txt:
+        raise SystemExit("stylesheet still contains '<' after comment stripping")
+
+    lines = [
+        "// GENERATED by tools/build_bands.py. Do not edit.",
+        f"export const VIEW_BOX = {json.dumps(man['viewBox'])};",
+        f"export const STYLE = {json.dumps(style_txt)};",
+        f"export const DEFS = {json.dumps(''.join(defs_parts))};",
+        "export const BANDS: { id: string; depth: number; parallax: boolean; svg: string }[] = [",
+    ]
+    for bid, dp, par, body in bands:
+        lines.append(
+            f"  {{ id: {json.dumps(bid)}, depth: {dp}, "
+            f"parallax: {str(par).lower()}, svg: {json.dumps(body)} }},"
+        )
+    lines.append("];")
+    out.write_text("\n".join(lines) + "\n")
+
+    total = sum(b[3].count("<path") for b in bands)
+    print(f"{out.name}: {len(bands)} bands, {total} paths, {out.stat().st_size // 1024} KB "
+          f"({kind} depths)")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

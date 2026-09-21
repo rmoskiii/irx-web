@@ -12,7 +12,7 @@
   {
    "id": "architecture",
    "file": "architecture.svg",
-   "paths": 73,
+   "paths": 71,
    "rects": 0,
    "parallax": true
   },
@@ -33,7 +33,7 @@
   {
    "id": "near",
    "file": "near.svg",
-   "paths": 94,
+   "paths": 99,
    "rects": 0,
    "parallax": true
   },
@@ -43,6 +43,20 @@
    "paths": 0,
    "rects": 3,
    "parallax": false
+  },
+  {
+   "id": "anchor-threshold-balcony",
+   "file": "anchor-threshold-balcony.svg",
+   "paths": 1,
+   "rects": 0,
+   "parallax": true
+  },
+  {
+   "id": "anchor-threshold-kitchen",
+   "file": "anchor-threshold-kitchen.svg",
+   "paths": 1,
+   "rects": 0,
+   "parallax": true
   },
   {
    "id": "anchor-interior-hinge",

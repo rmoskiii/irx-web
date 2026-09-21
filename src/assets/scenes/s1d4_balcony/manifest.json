@@ -1,0 +1,48 @@
+{
+  "source": "s1d4_balcony.web.svg",
+  "viewBox": "0 0 1600 900",
+  "bands": [
+    {
+      "id": "background",
+      "file": "background.svg",
+      "paths": 2,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "architecture",
+      "file": "architecture.svg",
+      "paths": 79,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "environmental_detail",
+      "file": "environmental_detail.svg",
+      "paths": 21,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "furniture",
+      "file": "furniture.svg",
+      "paths": 51,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "near",
+      "file": "near.svg",
+      "paths": 2,
+      "rects": 0,
+      "parallax": true
+    },
+    {
+      "id": "atmosphere",
+      "file": "atmosphere.svg",
+      "paths": 0,
+      "rects": 2,
+      "parallax": false
+    }
+  ]
+}

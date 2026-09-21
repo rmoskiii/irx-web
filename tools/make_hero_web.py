@@ -162,8 +162,31 @@ def main() -> int:
         )
         s = s.replace(root, new_root, 1)
 
-    # the hinge target, named semantically so choreography never cites artwork ids
-    s = s.replace('id="hb-shade"', 'id="hb-shade" data-camera-anchor="interior-hinge"', 1)
+    # Hinge targets, named semantically so choreography never cites artwork ids.
+    # split_bands.py promotes anything carrying data-camera-anchor to its own
+    # depth-1.0 band, which is what a destination needs.
+    #
+    # The two thresholds have opposite polarity and the generic hinge does not
+    # care: the kitchen bar is --irx-lamp-warm, so moving into it resolves to a
+    # warm field; the glazing is --irx-outside-dark, so it resolves to a dark
+    # one. Both are low-information, which is the only property the swap needs.
+    #
+    # ONE INFERENCE, flagged rather than buried. The hero draws a window with a
+    # sill, not a balcony door — the only openings in the front room are the
+    # kitchen bar and the glazing. Treating the glazing as the way out to
+    # scene.jay.balcony is the single thing in this sequence the artwork does
+    # not state outright. It is small because at the hinge the frame is nothing
+    # but dark glass, and it is the standard arrangement in a flat, but it is
+    # an inference and should be replaced if a door is ever authored.
+    for artwork_id, anchor in (
+            ("hb-shade", "interior-hinge"),
+            ("hb-kit", "threshold-kitchen"),
+            ("hb-win", "threshold-balcony"),
+    ):
+        before_n = s.count('data-camera-anchor')
+        s = s.replace(f'id="{artwork_id}"', f'id="{artwork_id}" data-camera-anchor="{anchor}"', 1)
+        if s.count('data-camera-anchor') != before_n + 1:
+            raise SystemExit(f"could not anchor {artwork_id} — has it been renamed?")
 
     # 4. the phone, into the foreground band beside the other table props
     if assets:
